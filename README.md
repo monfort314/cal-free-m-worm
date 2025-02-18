@@ -1,9 +1,7 @@
 # cal-free-m-worm
 calcium dynamics in TRNs  &amp; behavioral analysis in freely moving worms *C. elegans*
 
-part of the manuscript:  Active sensing of substrate mechanics optimizes locomotion of *C. elegans*
-A. Pidde, C. Agazzi, M. Porta-de-la-Riva, C. Martínez-Fernández,  A. Lorrach, A. Bijalwan, E. Torralba, R. Das, J. Munoz, M. Krieg
-
+## Description
 0. **STEP0**:
    + Prerequisite to run the codes is to have trackmate neuron trajectory file prepared in *.xml format.
 The file should not include any other trajectories that do not represent neurons. Moreover, you need to label the neurons in NeuronLabels.csv file 
@@ -17,6 +15,9 @@ and give the path to tracks files.
 7. **STEP_cross_cov_analysis.py**
    + This step generates calculates the windowed cross-covariance between neural activity and velocity.
 
+
+## How to cite 
+part of the manuscript: Active sensing of substrate mechanics optimizes locomotion of C. elegans A. Pidde, C. Agazzi, M. Porta-de-la-Riva, C. Martínez-Fernández, A. Lorrach, A. Bijalwan, E. Torralba, R. Das, J. Munoz, M. Krieg
 
 
  
