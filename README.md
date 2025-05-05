@@ -1,6 +1,14 @@
 # cal-free-m-worm
 calcium dynamics in TRNs  &amp; behavioral analysis in freely moving worms *C. elegans*
 
+## Installation
+
+Download the package and unpack. Go to its directory
+
+Is it recommended to set up a conda environment:
+conda env create --name your_name --file=environment.yml
+Wait a couple of minutes until it is installed.
+
 ## Description
 0. **STEP0**:
    + Prerequisite to run the codes is to have trackmate neuron trajectory file prepared in *.xml format.
