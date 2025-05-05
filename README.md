@@ -25,6 +25,7 @@ and give the path to tracks files.
 7. **STEP_cross_cov_analysis.py**
    + This step generates calculates the windowed cross-covariance between neural activity and velocity. This will take couple of minutes to run.
 
+Sample data can be found under the link: https://icfo-my.sharepoint.com/:f:/r/personal/apidde_icfo_net/Documents/codes%20paper/calcium%20freely%20moving/data_cal_free_m_worm?csf=1&web=1&e=5Jgf5h
 
 ## How to cite 
 part of the manuscript: Active sensing of substrate mechanics optimizes locomotion of *C. elegans*, A. Pidde, C. Agazzi, M. Porta-de-la-Riva, C. Martínez-Fernández, A. Lorrach, A. Bijalwan, E. Torralba, R. Das, J. Munoz, M. Krieg
