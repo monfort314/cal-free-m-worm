@@ -6,7 +6,9 @@ calcium dynamics in TRNs  &amp; behavioral analysis in freely moving worms *C. e
 Download the package and unpack. Go to its directory
 
 Is it recommended to set up a conda environment:
-conda env create --name your_name --file=environment.yml
+
+```conda env create --name your_name --file=environment.yml```
+
 Wait a couple of minutes until it is installed.
 
 ## Description
@@ -15,13 +17,13 @@ Wait a couple of minutes until it is installed.
 The file should not include any other trajectories that do not represent neurons. Moreover, you need to label the neurons in NeuronLabels.csv file 
 and give the path to tracks files.
 2. **STEP1_calcium_subtract_trackmate.py**
-   + This step uses the neuron positions in the consecutive frames and integrate around in two channels. At the end it should save '*.xlsx' file.    
+   + This step uses the neuron positions in the consecutive frames and integrate around in two channels. At the end it should save '*.xlsx' file. It may take an hour to run   
 4. **STEP2_skeletonise.py**
-   + This step segments the videos including single worms, and find the skeletons. Does not perform well with self-crossed frames. At the end should save '*_skel.csv' file.
+   + This step segments the videos including single worms, and find the skeletons. Does not perform well with self-crossed frames. At the end should save '*_skel.csv' file. I may take few hours to run.
 5. **STEP3_correlate_behaviour_activity.py**
-   + This step orients the skeleons using the neurons position data (for now works with TRNs only), find the tangential and normal components of the velocity and should save '*_analysed.pkl' file at the end.
+   + This step orients the skeleons using the neurons position data (for now works with TRNs only), find the tangential and normal components of the velocity and should save '*_analysed.pkl' file at the end. It should take around an hour.
 7. **STEP_cross_cov_analysis.py**
-   + This step generates calculates the windowed cross-covariance between neural activity and velocity.
+   + This step generates calculates the windowed cross-covariance between neural activity and velocity. This will take couple of minutes to run.
 
 
 ## How to cite 
