@@ -18,12 +18,12 @@ import zarr
 
 # calibration data/constants
 overwrite = False
-#camSize = 6.5
-#binning = 2
-#magnification = 20
-pixToUm = ... #camSize * binning / magnification
+camSize = 6.5
+binning = 2
+magnification = 20
+pixToUm = camSize * binning / magnification
 radius = 10
-fps = ... #8
+fps = 8
 
 image_path = 'path_to_tiff_image.tif'
 labelData = pd.read_csv(r'NeuronLabels.csv')
