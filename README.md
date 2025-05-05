@@ -3,7 +3,8 @@ calcium dynamics in TRNs  &amp; behavioral analysis in freely moving worms *C. e
 
 ## Installation
 
-Download the package and unpack. Go to its directory
+The software was tested on Windows 11.
+Download the package and unpack. Go to its directory.
 
 Is it recommended to set up a conda environment:
 
